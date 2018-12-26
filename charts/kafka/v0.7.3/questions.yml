@@ -13,7 +13,7 @@ questions:
     type: string
     label: Kafka Image Name
   - variable: imageTag
-    default: "4.0.1-1"
+    default: "5.0.1"
     description: "Kafka image tag"
     type: string
     label: Kafka Image Tag
