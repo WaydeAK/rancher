@@ -64,7 +64,7 @@ prometheus:
 ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-loadbalancer
 external:
   enabled: true
-  type: LoadBalancer
+  type: NodePort
   externalTrafficPolicy: Cluster
   port: 8088
 
