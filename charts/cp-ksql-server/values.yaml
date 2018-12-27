@@ -63,7 +63,7 @@ prometheus:
 ## External Access
 ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-loadbalancer
 external:
-  enabled: false
+  enabled: true
   type: LoadBalancer
   externalTrafficPolicy: Cluster
   port: 8088
