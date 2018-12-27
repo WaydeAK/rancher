@@ -75,6 +75,7 @@ spec:
           {{- if .Values.ksql.headless }}
           - name: KSQL_KSQL_QUERIES_FILE
             value: /etc/ksql/queries/queries.sql
+          {{- else }}
           - name: KSQL_LISTENERS
             value: http://0.0.0.0:8088
           {{- end }}
